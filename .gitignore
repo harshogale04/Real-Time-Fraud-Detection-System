@@ -1,0 +1,48 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# ML artifacts / local data
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Dataset
+data/creditcard.csv
+data/raw/
+data/processed/
